@@ -12,6 +12,6 @@ public class LoginController {
     @RequestMapping(value="/login",method = RequestMethod.GET)
     @ResponseBody
     String login(){
-        return "登录成功,YES-1-2-3";
+        return "登录成功,YES-1-2-4";
     }
 }
