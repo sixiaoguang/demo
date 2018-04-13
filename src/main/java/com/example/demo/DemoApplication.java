@@ -18,6 +18,6 @@ public class DemoApplication {
 	@RequestMapping(value="/")
 	@ResponseBody
 	String home(){
-		return "HHHello !---A";
+		return "HHHello !---A--B";
 	}
 }
