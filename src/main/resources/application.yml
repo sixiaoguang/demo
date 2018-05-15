@@ -1,0 +1,37 @@
+#gitlab.version: 1.5.0 - acca87884e5f528774d8b12ff1ef806a9fdbc80d
+#server config
+gitlab.version: 1.5.0
+server.port: 9093
+server.tomcat.uri-encoding: UTF-8
+spring.http.encoding.charset: UTF-8
+#multipart.max-file-size: 1024Mb
+#multipart.max-request-size: 1024Mb
+spring.http.multipart.enabled: true
+spring.http.multipart.maxFileSize: 1024Mb
+spring.http.multipart.maxRequestSize: 1024Mb
+
+dataCenterId:
+workerId:
+
+spring.profiles: production
+
+#redis config
+#spring.redis.host: 172.100.105.26
+spring.redis.host: 127.0.0.1
+spring.redis.port: 6379
+spring.redis.password:
+spring.redis.defaultDbIndex: 1
+
+#hessian config
+hessian.servicesUrl: http://58.240.55.91:9090/HdccHessian/hessian/agent
+#hessian.servicesUrl: http://172.100.105.20:9090/HdccHessian/hessian/agent
+hessian.adminName: admin
+hessian.adminPasswd: admin
+
+bssOpenOrders.url: http://127.0.0.1:9094/bssService/
+
+report.filePathPrefix: /share/report/admin
+
+#spring.data.mongodb.uri: mongodb://huaplus:Hangdong3008@172.100.105.25:27017/huaplus
+
+service.name: service2

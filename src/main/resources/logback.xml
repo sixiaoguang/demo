@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <include resource="org/springframework/boot/logging/logback/base.xml"/>
+  <logger name="org.springframework.web" level="DEBUG"/>
+  <logger name="huaplus.dao" level="DEBUG"></logger>
+  <logger name="huaplus.controller" level="DEBUG"></logger>
+  <logger name="huaplus.service" level="DEBUG"></logger>
+  <logger name="huaplus.config" level="INFO"></logger>
+</configuration>
